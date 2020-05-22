@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width: 600px){
+    .imgclass{
+        width: 250px !important;
+    }
+    .jumbotronwrite h1{
+        font-size: 20px !important;
+        color: white !important;
+    }
+    .jumbotronwrite h4{
+        font-size: 16px !important;
+        color: white !important;
+    }
+    .btnclass{
+        font-size: 14px !important;
+        width: 40% !important;
+        margin: 4px !important;
+    }
+    .runningcar{
+        justify-content: center;
+        width: 300px !important;
+    }
+    .cabcol{
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .safetyclass{
+        width: 90% !important;
+        padding-top: 10 !important;
+        padding-bottom: 10px !important;
+    }
+    .location{
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .img2class{
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .rowback{
+        margin-top: 50px !important;
+        margin: 0;
+        padding-bottom: 10px !important;
+    }
+} 
+@media screen and (max-width: 992px){
+    .jumbotronwrite h1{
+        font-size: 20px !important;
+        color: white !important;
+    }
+    .jumbotronwrite h4{
+        font-size: 16px !important;
+        color: white !important;
+    }
+    .btnclass{
+        font-size: 14px !important;
+        width: 40% !important;
+        margin: 4px !important;
+    }
+    .runningcar{
+        display: block;
+    margin: 0 auto;
+        width: 300px !important;
+    }
+    .imgclass{
+        width: 300px !important;
+    }
+    .safetyclass{
+        width: 90% !important;
+        padding-top: 10 !important;
+        padding-bottom: 10px !important;
+    }
+    .img2class{
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .rowback{
+        margin-top: 107px !important;
+        margin: 0;
+        padding-bottom: 106px !important;
+    }   
+}
+
+
+
+
+/* Header Start */
+/* Navbar Start */
+.navbartoggler{
+    background-color: white;
+    border: 2px solid rgb(128, 128, 128) !important;
+}
+.mainnav{
+    background-color: rgba(0, 0, 0, 0.568) !important;
+    border-bottom: whitesmoke 1px solid;
+    padding: 20px 0px;
+
+}
+.menubtn1{
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #ff2841;
+    font-family: quicksand;
+}
+.menubtn1:hover a{
+    color: black !important;
+
+}
+.menubtn1 a{
+    color:white !important;
+    font-family: quicksand;
+}
+.menubtn a{
+    color:white !important;
+    font-family: quicksand;
+}
+.menubtn:hover a{
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    color: rgb(110, 255, 122) !important;
+}
+.menubtn:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.menubtn{
+    margin-right: 15px;
+    border: 1px solid transparent;
+}
+/* Navbar End */
+.rowback{
+margin-top: 150px ;
+padding-bottom: 105px;
+}
+.jumbotron{
+    background-image: url(../images/travel.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(30%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+.jumbotronwrite h1{
+    color: white;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    font-size: 20px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotroncol{
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.356);
+    padding: 0px;
+}
+.jumbotronwrite{
+    padding: 10px;
+    margin-bottom: 0px !important;
+}
+.btnclass{
+    background-image: linear-gradient(to right,rgb(0, 92, 250), rgb(21, 186, 247));
+    border: 0px ;
+    font-family: quicksand !important;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 20px;
+    color: white;
+    width: 30%;
+    margin: 5px;
+}
+.btnclass:hover{
+    background-image: linear-gradient(to left,rgb(0, 92, 250), rgb(21, 186, 247));
+    color:white;
+}
+.colcol{
+    font-family: quicksand;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 15, 15, 0.719);
+}
+.colcol h3{
+    font-size: 23px;
+}
+.colcol p{
+    font-size: 14px;
+}
+/* Header End */
+/* cab booking Start */
+.sect{
+    padding: 100px 0px 50px;
+    background-color: rgb(252, 252, 252);
+}
+.cabcol{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 12px;
+    padding:5px;
+    height: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-shadow: rgba(8, 8, 8, 0.658) 0px 8px 20px;
+    transition: box-shadow 0.5s, color 0.3s ease-in-out;
+}
+.cabcol:hover{
+    color: red;
+    box-shadow: none !important;
+}
+
+.cabcol:hover img{
+    border: 1px solid rgb(199, 198, 198);
+    border-radius:50px;
+    padding: 2px;
+    background-color: rgb(216, 215, 215);
+}
+.cabcol p{
+    font-size:12px;
+    color: rgb(97, 97, 97);
+    font-family: open sans;
+}
+.mainhead{
+    font-size: 25px;
+    font-family: merriweather !important;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.cabserve{
+    margin-bottom: 20px;
+}
+.imgclass{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition:border-top-right-radius 0.5s , border-bottom-left-radius 0.5s, border-top-left-radius 0.5s , border-top-right-radius 0.5s ease-in-out ;
+    
+}
+.imgclass:hover{
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+/* Cab booking End */
+/* Safety Start */
+.safetybtn{
+    background-image: linear-gradient(to right,rgb(0, 92, 250), rgb(21, 186, 247));
+   border: 0px ;
+   color: white;
+   border-radius: 15px;
+   font-family: quicksand;
+}
+.safetybtn:hover{
+    color: white;
+    background-image: linear-gradient(to left,rgb(0, 92, 250), rgb(21, 186, 247));
+}
+.safetyclass{
+    background-image: url(../images/fly.jpg);
+    transition: transform .2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.safetyclass:hover{
+    transform: scale(1.1);
+}
+/* Safety End */
+/* location Start */
+.location{
+    border: 2px solid rgb(148, 148, 148);
+    padding-bottom:10px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgba(8, 8, 8, 0.658) 0px 8px 20px;
+    transition: box-shadow 0.5s, color 0.3s, transform 0.3s  ease-in-out;
+}
+.location:hover{
+    transform: translate(2px, 2px);
+    box-shadow:rgba(8, 8, 8, 0.479) 15px 10px 20px;;
+}
+.location img{
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+.location h5{
+    padding: 20px;
+    font-size: 18px !important;
+    font-family: merriweather !important;
+    font-weight: bold;
+}
+.location p{
+    padding-left: 20px;
+    font-size: 12px !important;
+    color: rgb(121, 120, 120);
+    font-family: merriweather !important;
+    font-weight: lighter;
+}
+.location a{
+    padding-left: 20px;
+    font-size: 14px !important;
+    font-family: merriweather !important;
+    font-weight: lighter;
+}
+.locol {
+    margin-bottom: 40px;
+}
+.location:hover h5{
+    text-shadow: dimgray 0px 5px 10px;
+        color: rgb(22, 119, 199);
+}
+.location a{
+    transition: font-size 0.4s ease-in-out;
+}
+.location:hover a{
+    color: rgb(252, 65, 65);
+    font-weight: bold;
+    font-size: 16px !important;
+}
+.cursorclass{
+    color: transparent !important;
+}
+.location:hover .cursorclass{
+    color: rgb(158, 154, 154) !important;
+    font-weight: bold;
+}
+.locationsect{
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.imagecity{
+    transition: transform .7s ease-in-out;
+}
+.imagecity:hover{
+    transform: scale(1.1); 
+}
+/* location end */
+/* Rental Start */
+.rentalrow{
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    margin-bottom:60px !important;
+}
+.img2class img{
+    transition: width 0.4s ease-in-out;
+}
+.img2class:hover img{
+        width: 80px !important;
+}
+/* Rental End */
+/* Footer Start */
+.footerclass{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0A0A0A;
+}
+.ctext{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-family: open sans;
+    display: inline-block !important;
+}
+.ctext a{
+    color: white;
+    font-weight: 600;
+}
+.paymentclass{
+    margin: 20px 0 20px 0;
+}
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #010101;
+    color: white;
+}
+.copyright a{
+    color: white;
+}
+.copyright a:hover{
+    color: lightblue;
+}
+.copyright p{
+    text-align: end;
+    font-size: 12px;
+    margin: auto 0;
+}
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    right:1.5%;
+    max-width: 60px;
+    width: 70%;
+    font-size: 35px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgba(85, 85, 85, 0.342);
+    padding-right: 20px;
+    padding-left:20px ;
+    border-radius: 5px;
+
+}
+#myBtn:hover{
+    background-color: rgba(3, 3, 3, 0.74);
+}
+/* Footer End */

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.jumbotron{
+    background-image: url(../images/cabs.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+
+.jumbotronwrite h1{
+    color: white;
+    font-size: 50px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    padding-left: 100px !important;
+    font-size: 30px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotronwrite{
+    margin-top: 30px !important;
+    padding: 20px;
+    margin-bottom: 80px !important;
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.233);
+}
+/* header end */
+/* Cab Start */
+.offerdeal{
+    position: relative;
+    font-weight: 700;
+    background-color: white;
+    bottom: 57px;
+    display: inline-block;
+    font-family: quicksand;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.iconstyle{
+    color: rgb(218, 216, 216);
+}
+.cabservecol h1{
+    display: inline-block;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Merriweather;
+}
+.cabservecol span{
+    color: rgb(245, 182, 23);
+}
+.cabservecol p{
+    color: grey;
+    font-family: quicksand;
+}
+.icon2style{
+    color: rgb(245, 182, 23);
+    font-size: 24px !important;
+}
+.icon3style{
+    color: black;
+    font-size: 24px !important;
+}
+.borderclass{
+    border-left:2px solid rgb(226, 226, 226);
+    border-right:2px solid rgb(226, 226, 226);
+}
+.sectioncab{
+    background-color: rgb(238, 238, 238);
+    padding-top: 30px !important;
+    padding-bottom: 60px !important;
+}
+.sectioncab2{
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+    background-color: white;
+}
+.btnabt{
+    padding: 8px;
+    background-color: #2F2F2F;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: quicksand;
+    border: none;
+    box-shadow: rgb(245, 182, 23) 0 6px ;
+}
+.abtclass p{
+    color: grey;
+    font-family: quicksand;
+}
+.abtclass h1{
+    color: black;
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Merriweather;
+}
+.abtclass a{
+    color: rgb(245, 182, 23);
+    font-size: 20px;
+    font-family: quicksand;
+}
+.abtclass li{
+    color: rgb(245, 182, 23);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: merriweather;
+}
+/* Cab End */
