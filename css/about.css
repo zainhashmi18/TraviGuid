@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.jumbotron{
+    background-image: url(../images/car.jpg) !important;
+    background-repeat: no-repeat;
+    filter: grayscale(30%);
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+.jumbotronwrite h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotronwrite{
+    margin-top: 30px !important;
+    padding: 20px;
+    margin-bottom: 80px !important;
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.473);
+}
+/* header end */
+/* about Start */
+.aboutdiv p{
+    font-family: merriweather;
+    line-height: 30px;
+    text-shadow: grey 0pc 2px 10px;
+}
+.sectionabout{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+/* about End */
+/* Faq Start */
+.carshatring{
+    box-shadow: rgba(8, 8, 8, 0.404) 0px 8px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: white !important;
+    border: 2px solid rgb(187, 187, 187) !important;
+    transition: box-shadow 0.4s ease-in-out;
+}
+.carshatring p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.carshatring h5{
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 22px;
+}
+.carshatring:hover{
+    box-shadow: none !important;
+}
+.carshatring h5{
+    transition: color 0.4s ease-in-out;
+}
+.carshatring:hover h5{
+    color: red;
+}
+.faqsection{
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.accordiontext{
+    color: black;
+}
+.accordiontext:hover{
+    color: royalblue;
+}
+.underlineremover{
+    text-decoration: none !important;
+}
+.rowfaq{
+    margin-top: 60px !important;
+}
+/* Faq End */

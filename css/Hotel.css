@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 600px){
+    .hotelbtn{
+        font-size: 14px !important;
+        width: 35% !important;
+    }
+    .mainhotel{
+        width: 80% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .textonimage{
+    left: 62px !important;
+    }
+    .textonimage2{
+        left: 62px !important;
+        }
+}
+.jumbotron{
+    background-image: url(../images/Hotel-Tips.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(30%);
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+
+.jumbotronwrite h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotronwrite{
+    margin-top: 30px !important;
+    padding: 20px;
+    margin-bottom: 80px !important;
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.473);
+}
+/* header end */
+/* Hotel Start */
+.mainhotel{
+    overflow: hidden;
+    border-radius: 15px !important;
+}
+.hoteldiv{
+    border-radius: 15px !important;
+    transition: transform .7s ease-in-out;
+}
+.hoteldiv:hover{
+    transform: scale(1.1); 
+}
+.textonimage{
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 4px;
+    left: 17px;
+    color: white;
+    font-family: Merriweather;
+    font-weight: bolder;
+}
+.textonimage h4{
+    font-size: 20px;
+}
+.textonimage2 h4{
+    font-size: 20px;
+}
+.textonimage p{
+    font-size: 14px;
+}
+.textonimage2 p{
+    font-size: 14px;
+}
+.textonimage p{
+    font-weight: lighter;
+}
+.textonimage2{
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+    position: absolute;
+    top: 125px;
+    left: 18px;
+    color: white;
+    font-family: Merriweather;
+    font-weight: bolder;
+}
+.textonimage2 p{
+    font-weight: lighter;
+}
+.hotelbtn{
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right,rgb(0, 92, 250), rgb(21, 186, 247));
+    width: 18%;
+}
+.hotelbtn:hover{
+    background-image: linear-gradient(to left,rgb(0, 92, 250), rgb(21, 186, 247));
+}
+.offerdeal{
+    position: relative;
+    font-weight: 700;
+    background-color: white;
+    bottom: 77px;
+    display: inline-block;
+    font-family: quicksand;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.sectionoffer{
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+/* Hotel End */

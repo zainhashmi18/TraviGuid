@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.jumbotron{
+    background-image: url(../images/sky.jpg) !important;
+    background-repeat: no-repeat;
+    filter: grayscale(30%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+
+.jumbotronwrite h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotronwrite{
+    margin-top: 30px !important;
+    padding: 20px;
+    margin-bottom: 80px !important;
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.473);
+}
+/* header end */
+/* Form Start */
+.sect{
+    padding-top: 50px;
+}
+.btn2class{
+background-color: rgb(255, 146, 67) !important;
+border: 0px !important;
+border-radius: 0px !important;
+font-size: 20px !important;
+font-family: Quicksand !important;
+}
+.btn2class:hover{
+    background-color: rgb(255, 106, 0) !important;
+}
+.socialclass h6{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-family: merriweather;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+.Socialheading{
+    margin-top: 10px !important;
+    font-weight: bold;
+    font-family: Merriweather;
+}
+/* Form End */

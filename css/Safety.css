@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.jumbotron{
+    background-image: url(../images/safety.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(30%);
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: rgb(177, 177, 177) 2px solid;
+}
+
+.jumbotronwrite h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 42px;
+    font-family: Merriweather !important;
+}
+.jumbotronwrite h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px !important;
+    font-family: open sans !important;
+}
+.jumbotronwrite h4:hover{
+    text-decoration: underline !important;
+}
+.jumbotronwrite{
+    margin-top: 30px !important;
+    padding: 20px;
+    margin-bottom: 80px !important;
+    border-radius: 5px;
+    background-color: rgba(11, 15, 43, 0.473);
+}
+/* header end */
+/* Safety Start */
+.safetydiv h5{
+    font-family: merriweather !important;
+    font-weight: 600;
+}
+.safetydiv li{
+    font-family: montserrat  !important;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 4px;
+    color: grey;
+}
+.safetydiv h4{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.sectionsafety{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(238, 237, 237);
+}
+.safetydiv:hover h5{
+    font-size: 25px;
+}
+/* Safety End */
