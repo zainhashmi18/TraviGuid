@@ -53,6 +53,9 @@ html{
         margin: 0;
         padding-bottom: 10px !important;
     }
+    .colcol h3{
+        font-size: 14px !important;
+    }
 } 
 @media screen and (max-width: 992px){
     .jumbotronwrite h1{
