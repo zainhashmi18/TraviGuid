@@ -109,7 +109,8 @@ html{
     background-color: rgba(0, 0, 0, 0.568) !important;
     border-bottom: whitesmoke 1px solid;
     padding: 20px 0px;
-
+    animation-delay: 0.2s;
+    animation-duration: 1s;
 }
 .menubtn1{
     margin-right: 15px;
@@ -177,8 +178,10 @@ padding-bottom: 105px;
 }
 .jumbotroncol{
     border-radius: 5px;
-    background-color: rgba(11, 15, 43, 0.356);
+    background-color: rgba(11, 15, 43, 0.493);
     padding: 0px;
+    animation-delay: 0.2s;
+    animation-duration: 1.5s;
 }
 .jumbotronwrite{
     padding: 10px;
@@ -194,10 +197,16 @@ padding-bottom: 105px;
     color: white;
     width: 30%;
     margin: 5px;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
 }
 .btnclass:hover{
     background-image: linear-gradient(to left,rgb(0, 92, 250), rgb(21, 186, 247));
     color:white;
+}
+.cardiv{
+    animation-delay: 0.7s;
+    animation-duration: 1.5s;
 }
 .colcol{
     font-family: quicksand;
@@ -214,6 +223,14 @@ padding-bottom: 105px;
 }
 /* Header End */
 /* cab booking Start */
+.traviserve{
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+}
+.traviserve1{
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+}
 .sect{
     padding: 100px 0px 50px;
     background-color: rgb(252, 252, 252);
